@@ -10,19 +10,13 @@ import android.view.View
 import android.view.ViewGroup
 
 import concertrip.sopt.com.concertrip.R
-import concertrip.sopt.com.concertrip.activities.info.ArtistActivity
-import concertrip.sopt.com.concertrip.activities.info.TempConcertActivity
 import concertrip.sopt.com.concertrip.interfaces.OnFragmentInteractionListener
 import concertrip.sopt.com.concertrip.interfaces.OnItemClick
-import concertrip.sopt.com.concertrip.list.adapter.BasicListAdapter
 import concertrip.sopt.com.concertrip.list.adapter.TicketListAdapter
 
 import concertrip.sopt.com.concertrip.utillity.Constants
-import concertrip.sopt.com.concertrip.model.Artist
 import concertrip.sopt.com.concertrip.model.Ticket
-import kotlinx.android.synthetic.main.content_concert.view.*
 import kotlinx.android.synthetic.main.fragment_my_page.*
-import org.jetbrains.anko.support.v4.startActivity
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
