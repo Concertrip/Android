@@ -69,10 +69,14 @@ fastlane/readme.md
 
 *.iml
 .gradle
+.gradle/*
 /local.properties
 /.idea/*
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+
+
+
 app/src/main/java/concertrip/sopt/com/concertrip/utillity/Secret.kt
